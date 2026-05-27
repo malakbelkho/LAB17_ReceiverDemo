@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pulse_bg_deep">#14112A</color>
+    <color name="pulse_bg_mid">#251B47</color>
+    <color name="pulse_bg_soft">#3A2D66</color>
+
+    <color name="pulse_card">#332A55</color>
+    <color name="pulse_card_light">#46356F</color>
+    <color name="pulse_card_stroke">#6D5AA8</color>
+
+    <color name="pulse_accent">#8EF6E4</color>
+    <color name="pulse_accent_2">#B8A1FF</color>
+    <color name="pulse_accent_3">#FFB4D8</color>
+
+    <color name="pulse_text_main">#FFFFFF</color>
+    <color name="pulse_text_soft">#D8D2F2</color>
+    <color name="pulse_button_text">#151326</color>
+</resources>

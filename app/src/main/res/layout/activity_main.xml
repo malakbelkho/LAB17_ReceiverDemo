@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_broadcast_screen"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BroadcastPulse"
+            android:textColor="@color/pulse_text_main"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.03"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/appSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dynamic Receiver • Static Receiver • Custom Broadcast"
+            android:textColor="@color/pulse_text_soft"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="26dp" />
+
+        <LinearLayout
+            android:id="@+id/statusCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_glass_card"
+            android:padding="22dp"
+            android:layout_marginBottom="18dp">
+
+            <TextView
+                android:id="@+id/statusBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAB RECEIVER"
+                android:textColor="@color/pulse_accent"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/bg_status_pill" />
+
+            <TextView
+                android:id="@+id/statusTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Receiver prêt"
+                android:textColor="@color/pulse_text_main"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp" />
+
+            <TextView
+                android:id="@+id/statusDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Active le receiver dynamique, change le mode avion ou envoie un broadcast custom."
+                android:textColor="@color/pulse_text_soft"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/toggleSkyReceiverButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Activer l’écoute avion"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/pulse_button_text"
+            android:background="@drawable/bg_primary_button"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/sendPulseButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Envoyer un broadcast custom"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/pulse_text_main"
+            android:background="@drawable/bg_secondary_button"
+            android:layout_marginBottom="22dp" />
+
+        <LinearLayout
+            android:id="@+id/timelineCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_timeline_item"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Journal des événements"
+                android:textColor="@color/pulse_text_main"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eventTimeline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/pulse_text_soft"
+                android:textSize="14sp"
+                android:lineSpacingExtra="6dp"
+                android:layout_marginTop="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
