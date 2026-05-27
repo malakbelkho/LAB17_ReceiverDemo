@@ -1,4 +1,4 @@
-# BroadcastPulse – LAB17
+# BroadcastPulse – LAB 17
 
 Application Android permettant de comprendre et tester les **BroadcastReceiver** à travers trois scénarios principaux :  
 la détection du **mode avion**, la réception du **démarrage du téléphone**, et l’envoi d’un **broadcast personnalisé** depuis l’application.
